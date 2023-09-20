@@ -3,6 +3,7 @@ import "./App.css";
 import Dashboard from "../Components/Dashboard";
 import { Container, Row, Col } from "react-bootstrap";
 import BlogPage from "../Components/BlogPage";
+import CreateAccount from "../Components/CreateAccount";
 
 function App() {
   return (
@@ -11,9 +12,11 @@ function App() {
         <Col>
           <h1 className="text-center">Our Blog</h1>
         </Col>
-        <BlogPage/>
+        <CreateAccount/>
+        {/* <BlogPage/> */}
         {/* <Dashboard /> */}
       </Row>
+
     </Container>
   );
 }
